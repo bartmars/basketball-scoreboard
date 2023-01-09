@@ -1,22 +1,30 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: "CursedTimerUlil-Aznm";
+}
+
 body {
     background: rgba(21, 26, 57, 100);
     color: #eeeeee;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
     display: flex;
     gap: 75px;
     justify-content: center;
+    margin: 20px 0;
 }
 
-.score-points {
+.scoreboard {
+    font-family: "CursedTimerUlil-Aznm";    
     color: #9f1239;
     background: #080001;
     padding: 10px 10px;
     text-align: right;
-    font-size: xx-large;
+    font-size: 72px;
     margin: 0 0 20px 0;
+    text-align: center;
 }
 
 .centered {
@@ -24,9 +32,10 @@ body {
 }
 
 .btn {
+    font-family: "CursedTimerUlil-Aznm";
     padding: 5px 10px;
     background: transparent;
-    color: #eeeeee;
+    color: #9aabd8;
     border: 2px solid #9aabd8;
-
+    padding: 8px 8px;
 }
