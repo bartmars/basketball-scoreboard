@@ -25,6 +25,11 @@ body {
     font-size: 72px;
     margin: 0 0 20px 0;
     text-align: center;
+    width: 100px;
+}
+
+#period-timer-el {
+    width: 250px;
 }
 
 .centered {

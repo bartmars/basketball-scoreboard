@@ -60,10 +60,15 @@ function addVisitorFoul() {
 }
 
 function addPeriod() {
-    period += 1;
+    if (period < 4) {
+        period += 1;
+    } else {
+        period = 1;
+    }
     periodEl.textContent = period;
     periodTimer = "10:00";
     periodTimerEl.textContent = periodTimer;
+    
 }
 
 function resetGame() {
